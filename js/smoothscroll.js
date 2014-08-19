@@ -8,7 +8,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
 
    // animate
    $('html, body').animate({
-       scrollTop: $(this.hash).offset().top
+       scrollTop: $(this.hash).offset().top 50
      }, 700, function(){
 
        // when done, add hash to url
@@ -18,7 +18,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
 
 });
 
-$("a.navbar-brand[href^='#top']").on('click', function(e) {
+$("a.navbar-brand[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
    e.preventDefault();
@@ -28,7 +28,7 @@ $("a.navbar-brand[href^='#top']").on('click', function(e) {
 
    // animate
    $('html, body').animate({
-       scrollTop: $(this.hash).offset().top
+       scrollTop: $(this.hash).offset().top 50
      }, 700, function(){
 
        // when done, add hash to url
