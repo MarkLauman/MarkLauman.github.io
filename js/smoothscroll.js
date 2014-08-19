@@ -38,7 +38,7 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
 
 });
 
-("#back-to-top a[href^='#']").on('click', function(e) {
+$("#back-to-top a[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
    e.preventDefault();
@@ -49,7 +49,7 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
    // animate
    $('html, body').animate({
        scrollTop: $(this.hash).offset().top -50
-     }, 700, function(){
+     }, 1200, function(){
 
        // when done, add hash to url
        // (default click behaviour)
