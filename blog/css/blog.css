@@ -30,6 +30,7 @@ h6, .h6 {
     width: 970px;
   }
 }
+
 /* NavBar */
 
 .navbar-brand {
@@ -38,6 +39,10 @@ h6, .h6 {
   text-transform: lowercase;
   font-weight: 100;
   letter-spacing: -1px;
+}
+
+.navbar-default .navbar-brand {
+  color: #555;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
