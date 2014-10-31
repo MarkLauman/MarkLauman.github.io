@@ -32,6 +32,14 @@ h6, .h6 {
 }
 /* NavBar */
 
+.navbar-brand {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.9em;
+  text-transform: lowercase;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
   background-color: #f8f8f8;
 }
