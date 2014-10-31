@@ -45,6 +45,10 @@ h6, .h6 {
   color: #555;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: #e74c3c;
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
   background-color: #f8f8f8;
 }
