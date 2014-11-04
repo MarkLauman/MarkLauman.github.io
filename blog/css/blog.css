@@ -20,6 +20,12 @@ h6, .h6 {
   color: #333;
 }
 
+h2 {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  line-height: 1.2em;
+}
+
 
 /*
  * Override Bootstrap's default container.
@@ -83,27 +89,6 @@ h6, .h6 {
 #blog-page div.blog-post:first-child .blog-post-title {
   color: #e74c3c;
 }
-
-
-/*
- * Blog name and description
- */
-
-.blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
-}
-.blog-description {
-  font-size: 20px;
-  color: #999;
-}
-
 
 /*
  * Main column and sidebar layout
